@@ -36,6 +36,9 @@
     }
   },
   "autoload-dev": {
+    "files": [
+      "src/Functions/box.php"
+    ],
     "psr-4": {
       "NorseBlue\\Optionals\\Tests\\": "tests/"
     }
