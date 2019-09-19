@@ -9,6 +9,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 See the [changelog](.changelog/CHANGELOG-0.0.0.md) file of the current release for the latest changes.
 
+## Unreleased
+
+All unreleased features and changes are tracked with the [unreleased](.changelog/UNRELEASED.md) changelog file.
+
 ## All Releases
 
 - [[0.0.0](.changelog/CHANGELOG-0.0.0.md)] released on 2019-07-09
