@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+use NunoMaduro\PhpInsights\Domain\Insights\ForbiddenDefineFunctions;
 use NunoMaduro\PhpInsights\Domain\Insights\ForbiddenNormalClasses;
 use NunoMaduro\PhpInsights\Domain\Insights\ForbiddenTraits;
 use PHP_CodeSniffer\Standards\Generic\Sniffs\Files\LineLengthSniff;
@@ -50,6 +51,7 @@ return [
 
         // Code
         DisallowMixedTypeHintSniff::class,
+        ForbiddenDefineFunctions::class,
 
         // Style
         LineLengthSniff::class,
