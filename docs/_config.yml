@@ -1,4 +1,19 @@
+remote_theme: pmarsceill/just-the-docs
 plugins:
   - jekyll-remote-theme
-remote_theme: pmarsceill/just-the-docs
+  - jekyll-seo-tag
+
+title: "PHP Optionals"
+description: "PHP Optionals is a PHP library that allows you to chain method calls or access properties of an object while preventing errors from occurring."
+url: "https://norse-blue.github.io"
+baseurl: "/php-optionals/"
+permalink: pretty
 search_enabled: true
+
+# Aux links for the upper right navigation
+aux_links:
+  "PHP Optionals on GitHub":
+    - "//github.com/norse-blue/php-optionals"
+
+# Google Analytics
+ga_tracking: UA-144830285-6
